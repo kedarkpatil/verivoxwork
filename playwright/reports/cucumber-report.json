@@ -1,0 +1,560 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "versischerungen;verify-dsl-calc",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify DSL Calc",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to Versicherungen and select Privathaftpflicht",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter my age and Single ohne Kinder",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I go to the Privathaftpflicht personal information page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter my birth date",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter my zip code",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the Jetzt vergleichen button",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see a page that lists the available tariffs for my selection",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17348000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "versischerungen;verify-offer-details-for-a-selected-tariff",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify offer details for a selected tariff",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to Versicherungen and select Privathaftpflicht",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter my age and Single ohne Kinder",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I go to the Privathaftpflicht personal information page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter my birth date",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter my zip code",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the Jetzt vergleichen button",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I display the tariff Result List page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see the tariff price of the first tariff",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I open tariff details",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I see tariff details sections: Weitere Leistungen, Allgemein, Tätigkeiten und Hobbys",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I see tariff details sections: Miete & Immobilien and Dokumente",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I see the Zum Online-Antrag button",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "versischerungen",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Versischerungen",
+    "tags": [],
+    "uri": "features\\Assignment.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "versischerungen-multiple;load-multiple-tariff-result-pages",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Load multiple tariff result pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to Versicherungen and select Privathaftpflicht",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter my age and Single ohne Kinder",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I go to the Privathaftpflicht personal information page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter my birth date",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter my zip code",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the Jetzt vergleichen button",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I display the tariff Result List page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the total number of available tariffs listed above all the result list",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I scroll to the end of the result list page",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see only the first 20 tariffs displayed",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on the button labeled 20 weitere Tarife laden",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the next 20 tariffs displayed",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I can continue to load any additional tariffs until all tariffs have been displayed",
+            "match": {
+              "location": "step-definitions\\StepDefinition.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20992000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "versischerungen-multiple",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Versischerungen Multiple",
+    "tags": [],
+    "uri": "features\\New.feature"
+  }
+]
